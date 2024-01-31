@@ -5,6 +5,7 @@ import { Routes, BrowserRouter, Route } from 'react-router-dom'
 // Routers | Loading
 
 import Home from './components/HomePage/index'
+import Login from './components/LoginPage/index'
 import Loading from './components/Loading/index'
 
 export default function App(): React.ReactElement {
@@ -20,6 +21,7 @@ export default function App(): React.ReactElement {
             <BrowserRouter>
                 <Routes>
                     <Route path="/" element={<Home />} />
+                    <Route path="/login" element={<Login />} />
                 </Routes>
             </BrowserRouter>
         </div>
