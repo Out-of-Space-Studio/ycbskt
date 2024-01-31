@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ycbskt/static/css/main.a1ee2736.css",
+    "main.js": "/ycbskt/static/js/main.67e6820f.js",
+    "index.html": "/ycbskt/index.html",
+    "main.a1ee2736.css.map": "/ycbskt/static/css/main.a1ee2736.css.map",
+    "main.67e6820f.js.map": "/ycbskt/static/js/main.67e6820f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a1ee2736.css",
+    "static/js/main.67e6820f.js"
+  ]
+}
