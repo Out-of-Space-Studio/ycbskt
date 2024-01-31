@@ -4,9 +4,13 @@ import { Routes, BrowserRouter, Route } from 'react-router-dom'
 
 // Routers | Loading
 
-import Home from './components/HomePage/index'
-import Login from './components/LoginPage/index'
-import Loading from './components/Loading/index'
+import Navbar from './Components/Navbar'
+import Home from './Components/HomePage/index'
+import Login from './Components/LoginPage/index'
+import Scoreboard from './Components/Scoreboard/index'
+import Comp from './Components/4Comp/index'
+import Members from './Components/Members/index'
+import Loading from './Components/Loading/index'
 
 export default function App(): React.ReactElement {
     const [loading, setLoading] = useState(true)
@@ -19,9 +23,13 @@ export default function App(): React.ReactElement {
     return (
         <div id="app">
             <BrowserRouter>
+                <Navbar />
                 <Routes>
                     <Route path="/" element={<Home />} />
-                    <Route path="/login" element={<Login />} />
+                    {/* <Route path="/login" element={<Login />} /> */}
+                    <Route path="/scoreboard" element={<Scoreboard />} />
+                    <Route path="/4Comp" element={<Comp />} />
+                    <Route path="/members" element={<Members />} />
                 </Routes>
             </BrowserRouter>
         </div>
