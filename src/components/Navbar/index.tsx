@@ -8,17 +8,17 @@ export default function Navbar(): ReactElement {
 
     return (
         <div className="nav-bar">
-            <Link className="Home Logo" to={'./ycbskt/'}>
+            <Link className="Home Logo" to={'/'}>
                 <img src="" alt="logo" />
             </Link>
             <div className="menu">
-                <Link className="classElement" to={'./ycbskt/scoreboard'}>
+                <Link className="classElement" to={'/scoreboard'}>
                     Scoreboard
                 </Link>
-                <Link className="classElement" to={'./ycbskt/4Comp'}>
+                <Link className="classElement" to={'/4Comp'}>
                     4 Comp
                 </Link>
-                <Link className="classElement" to={'./ycbskt/members'}>
+                <Link className="classElement" to={'/members'}>
                     Members
                 </Link>
             </div>
