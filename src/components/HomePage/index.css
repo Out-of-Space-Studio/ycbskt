@@ -1,0 +1,56 @@
+body {
+    background-color: #171718;
+}
+.background {
+    background-color: #171718;
+    height: 350vh;
+}
+
+.back {
+    background-color: #171718;
+    max-width: 350px;
+    margin-top: 135px;
+    margin-left: 70px;
+}
+
+.type {
+    --n: 60;
+    font-size: 24px;
+    font-family:
+        Roboto Mono,
+        monospace;
+    color: #0000;
+    font-weight: 400;
+    line-height: 31.65px;
+
+    word-break: keep-all;
+    padding: 0 0.1rem;
+    background:
+        linear-gradient(-90deg, #a200ff 4px, #0000 0) 0 0,
+        linear-gradient(#00ff00 0 0) 0 0;
+    background-size: calc(var(--n) * 1ch) 200%;
+    -webkit-background-clip: padding-box, text;
+    background-clip: padding-box, text;
+    background-repeat: no-repeat;
+    animation:
+        blink-caret 0.4s infinite steps(1),
+        typing calc(var(--n) * 0.08s) steps(var(--n)) forwards;
+}
+
+@keyframes typing {
+    from {
+        background-size: 0 200%;
+    }
+}
+@keyframes blink-caret {
+    from,
+    to {
+        border-color: transparent;
+    }
+    50% {
+        background-position:
+            0 -100%,
+            0 0;
+        border-color: #a200ff;
+    }
+}
