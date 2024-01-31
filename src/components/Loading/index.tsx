@@ -1,7 +1,7 @@
-import React from "react"
+import React from 'react'
 import './index.scss'
 
-const Loading =()=> {
+const Loading = () => {
     return (
         <body className="background">
             <div className="back">
@@ -19,4 +19,4 @@ const Loading =()=> {
     )
 }
 
-export default Loading;
+export default Loading

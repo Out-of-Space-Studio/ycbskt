@@ -1,4 +1,4 @@
-body{
+body {
     background-color: #171718;
 }
 .background {
@@ -14,7 +14,6 @@ body{
 }
 
 .type {
-
     --n: 60;
     font-size: 24px;
     font-family:
@@ -44,8 +43,9 @@ body{
     }
 }
 @keyframes blink-caret {
-    from, to {
-        border-color:transparent;
+    from,
+    to {
+        border-color: transparent;
     }
     50% {
         background-position:
