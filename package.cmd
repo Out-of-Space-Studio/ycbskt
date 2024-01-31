@@ -1,1 +1,5 @@
-npm run prettier|git add .|git commit -m "Commit"|git push|npm run deploy
+prettier -w ./
+git add .
+git commit -m "Commit"
+git push
+npm run deploy
