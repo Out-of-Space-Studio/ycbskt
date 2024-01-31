@@ -10,13 +10,13 @@ export default function Navbar(): ReactElement{
     return (
         <div className="nav-bar">
 
-            <Link className="Home Logo" to={"/"}>
+            <Link className="Home Logo" to={"/ycbskt/"}>
                 <img src="" alt="logo" />
             </Link>
             <div className="menu">
-                <Link className="classElement" to={"/scoreboard"}>Scoreboard</Link>
-                <Link className="classElement" to={"/4Comp"}>4 Comp</Link>
-                <Link className="classElement" to={"/members"}>Members</Link>
+                <Link className="classElement" to={"/ycbskt/scoreboard"}>Scoreboard</Link>
+                <Link className="classElement" to={"/ycbskt/4Comp"}>4 Comp</Link>
+                <Link className="classElement" to={"/ycbskt/members"}>Members</Link>
             </div>
             <div className="mobileMenu" onClick={()=>{setLocation(!Location);}}></div>
         </div>

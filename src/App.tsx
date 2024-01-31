@@ -25,11 +25,11 @@ export default function App(): React.ReactElement {
             <BrowserRouter>
                 <Navbar />
                 <Routes>
-                    <Route path="/" element={<Home />} />
+                    <Route path="/ycbskt/" element={<Home />} />
                     {/* <Route path="/login" element={<Login />} /> */}
-                    <Route path="/scoreboard" element={<Scoreboard />} />
-                    <Route path="/4Comp" element={<Comp />} />
-                    <Route path="/members" element={<Members />} />
+                    <Route path="/ycbskt/scoreboard" element={<Scoreboard />} />
+                    <Route path="/ycbskt/4Comp" element={<Comp />} />
+                    <Route path="/ycbskt/members" element={<Members />} />
                 </Routes>
             </BrowserRouter>
         </div>
