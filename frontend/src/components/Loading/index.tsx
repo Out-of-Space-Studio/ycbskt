@@ -10,6 +10,9 @@ const Loading =()=> {
                     <br></br>
                     <br></br>
                     This is JelyF1shhhhhh ...
+                    <br></br>
+                    <br></br>
+                    Welcome to YCBSKT.
                 </span>
             </div>
         </body>

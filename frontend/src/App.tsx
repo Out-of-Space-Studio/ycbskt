@@ -10,7 +10,7 @@ import Loading from './components/Loading/index'
 export default function App(): React.ReactElement {
     const [loading, setLoading] = useState(true)
     useEffect(() => {
-        setTimeout(() => setLoading(false), 5000)
+        setTimeout(() => setLoading(false), 6500)
     }, [])
     if (loading) {
         return <Loading />
