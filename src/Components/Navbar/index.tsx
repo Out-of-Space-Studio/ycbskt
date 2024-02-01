@@ -22,12 +22,6 @@ export default function Navbar(): ReactElement {
                     Members
                 </Link>
             </div>
-            <div
-                className="mobileMenu"
-                onClick={() => {
-                    setLocation(!Location)
-                }}
-            ></div>
         </div>
     )
 }
