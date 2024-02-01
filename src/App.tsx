@@ -13,7 +13,7 @@ import Members from './Components/Members/index'
 import Loading from './Components/Loading/index'
 
 export default function App(): React.ReactElement {
-    const [loading, setLoading] = useState(true)
+    const [loading, setLoading] = useState<boolean>(true)
     useEffect(() => {
         setTimeout(() => setLoading(false), 6500)
     }, [])
@@ -27,10 +27,7 @@ export default function App(): React.ReactElement {
                 <Routes>
                     <Route path="/" element={<Home />} />
                     {/* <Route path="/login" element={<Login />} /> */}
-                    <Route
-                        path="/scoreboard"
-                        element={<Scoreboard />}
-                    />
+                    <Route path="/scoreboard" element={<Scoreboard />} />
                     <Route path="/4Comp" element={<Comp />} />
                     <Route path="/members" element={<Members />} />
                 </Routes>
