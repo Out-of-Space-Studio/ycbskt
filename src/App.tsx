@@ -8,7 +8,7 @@ import Navbar from './Components/Navbar'
 import Home from './Components/HomePage/index'
 import Login from './Components/LoginPage/index'
 import Scoreboard from './Components/Scoreboard/index'
-import Comp from './Components/4Comp/index'
+import Competition from './Components/Competition/index'
 import Members from './Components/Members/index'
 import Loading from './Components/Loading/index'
 
@@ -28,7 +28,7 @@ export default function App(): React.ReactElement {
                     <Route path="/" element={<Home />} />
                     {/* <Route path="/login" element={<Login />} /> */}
                     <Route path="/scoreboard" element={<Scoreboard />} />
-                    <Route path="/4Comp" element={<Comp />} />
+                    <Route path="/competition" element={<Competition />} />
                     <Route path="/members" element={<Members />} />
                 </Routes>
             </BrowserRouter>

@@ -1,9 +1,9 @@
 .nav-bar {
     position: relative;
-    height: 6.25rem;
+    height: auto;
     width: calc(90vm - 1rem);
     max-width: calc(1200px - 1rem);
-    margin: 0;
+    margin-bottom: 35px;
     padding: 0.95rem max(5vw, calc(50vw - 600px));
     display: flex;
     align-items: center;
@@ -22,4 +22,11 @@
         color: #00ff00;
     }
 
+}
+
+.logo-img{
+
+    
+    width: calc(50% - 3.5rem);
+    max-height: calc(1200px - 1rem);
 }

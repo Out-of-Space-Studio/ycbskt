@@ -3,8 +3,8 @@ const Player =()=>{
     return (
 
         <div className="Player">
-            
-            <input type="button" className="Modify"></input>
+
+            <input type="button" className="Player"></input>
         </div>
     );
 }

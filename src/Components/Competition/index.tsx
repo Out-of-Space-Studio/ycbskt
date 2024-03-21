@@ -6,7 +6,7 @@ import Player from '../Player.js'
 export default function Comps(): ReactElement {
     return (
         <div className="scoreboard">
-            4 Comps
+            Competition
             <Player />
         </div>
     );
